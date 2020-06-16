@@ -3,7 +3,7 @@ import numpy as np
 from pandas.testing import assert_frame_equal
 from pandas.testing import assert_series_equal
 
-from data_preparation import impute_mean
+from data_preparation import impute_mean, is_greater_than_average
 
 def test_impute_mean():
     #exercise idea: use different arrays
@@ -14,5 +14,17 @@ def test_impute_mean():
     expected_series = pd.Series(output_data)
 
     output_series = impute_mean(series=input_series)
+
+    assert_series_equal(output_series, expected_series)
+
+
+def test_is_greater_than_average():
+
+    data = np.array([1, 2, 3, 2.5, 4])
+    input_series = pd.Series(data)
+    output = np.array([0, 0, 1, 0, 1])
+    expected_series = pd.Series(output)
+
+    output_series = is_greater_than_average(series=input_series)
 
     assert_series_equal(output_series, expected_series)
