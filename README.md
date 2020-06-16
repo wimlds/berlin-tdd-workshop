@@ -10,6 +10,18 @@ OR
 
 ## Setup
 
+with conda:
+
+```shell script
+# install working environment with conda
+conda env create -n berlin-tdd-workshop -f environment.yml
+
+# environment should be activated now
+# if not type: source activate pydata-pandas-workshop
+```
+
+With pyenv and poetry:
+
 `make setup`
 
 `make test`
