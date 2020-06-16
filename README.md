@@ -23,5 +23,13 @@ conda env create -n berlin-tdd-workshop -f environment.yml
 With pyenv and poetry:
 
 `make setup`
+`source .venv/bin/activate` to activate the environment
 
+## Running test
+
+Start environment and:
+
+`pytest` or `pytest -vv` for verbose output
+
+or if you did the poetry setup:
 `make test`
