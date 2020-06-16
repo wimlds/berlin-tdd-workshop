@@ -3,11 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas=1.0.1
-  - jupyterlab=2.01
+  - pandas=1.0.4
+  - jupyterlab=2.1.4
   - matplotlib=3.2.0
   - seaborn
-  - jupyter
+  - jupyter=1.0.0
   - seaborn
   - pytest
   - pytest-cov

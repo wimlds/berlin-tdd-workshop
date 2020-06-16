@@ -12,7 +12,7 @@ OR
 
 with conda:
 
-```shell script
+```python script
 # install working environment with conda
 conda env create -n berlin-tdd-workshop -f environment.yml
 
