@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import pytest
 from pandas.testing import assert_frame_equal
 from pandas.testing import assert_series_equal
 
@@ -17,7 +18,7 @@ def test_impute_mean():
 
     assert_series_equal(output_series, expected_series)
 
-
+@pytest.mark.skip(reason="comment out when we get here")
 def test_is_greater_than_average():
 
     data = np.array([1, 2, 3, 2.5, 4])

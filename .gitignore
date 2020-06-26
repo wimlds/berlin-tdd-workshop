@@ -129,4 +129,4 @@ local_config.py
 .DS_Store
 
 # not sure yet about the data
-the-pudding*
+measurementRectangles.json
