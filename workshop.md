@@ -49,7 +49,7 @@
 
 # -> Back to the data - EDA - Exercise 1
 
-- disclaimer, the purpose of this is not to do eda or be correct about or eda :D
+- disclaimer, the purpose of this is not to do EDA or be correct about our EDA :D
 - checking some data assumptions, open the [EDA](EDA.ipynb) notebook
 - first data transformation method, it works in notebook but has error..
 - comment out the skip test, run test.. (test will fail)
