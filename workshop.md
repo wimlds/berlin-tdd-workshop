@@ -1,7 +1,12 @@
-%title: One step closer to unit testing in data science
-%author: Tereza Iofciu & Marielle Dado
+% title: One step closer to unit testing in data science
+
+% authors: Ellen König, Marielle Dado, Tereza Iofciu
 
 ---
+
+# -> Unit testing
+
+- Presentation: what is unit testing, why, how and so on
 
 ---
 
@@ -12,8 +17,6 @@
 - start environment (README)
 
 - start Jupyter Lab (-> jupyter lab)
-
----
 
 ---
 
