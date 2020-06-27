@@ -26,7 +26,7 @@
 - Clone the workshop repo: `git clone https://github.com/wimlds/berlin-tdd-workshop`
 - Go to folder `cd berlin-tdd-workshop`
 - Download .json file from : `git clone https://github.com/the-pudding/data.git`
-- file needs to be opened from editor and saved.. to fix json encoding issue
+- file needs to be opened from editor and saved. to fix json encoding issue
 - copy data/pockets/measurementRectangles.json file to workshop folder
 - to take a look at the data open and run cells in the [DataProfiling](DataProfiling.ipynb) notebook
 - we see that data is nicely balanced, each brand has 4 jeans, 2 for men and 2 for women and no missing data
