@@ -35,7 +35,7 @@
   - some with min
   - think of test edge cases: calling this function on a column full of nans?
   - how will we name all the tests and functions
-- copy the methods we write are in [scripts/imputation.py](scripts/imputation.py) and at add the tests in [test/test_imputation.py](test/test_imputation.py)
+- copy the methods we write into [scripts/imputation.py](scripts/imputation.py) and at add the tests in [test/test_imputation.py](test/test_imputation.py)
 
 ---
 
