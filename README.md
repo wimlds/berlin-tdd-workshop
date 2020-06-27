@@ -71,6 +71,6 @@ This should return tha a test has passed and some were skipped.
 
 ## Workshop
 
-We prepared some data for the workshop, using a Pockets dataset from [the-pudding](https://github.com/the-pudding/). In order to try out different imputation methods we removed 10% of the price values. If you want to take a look at all the data check the [PrepareWorkshopData](PrepareWorkshopData.ipynb) notebook. We will not cover this through the workshop.
+We prepared some data for the workshop, using a Pockets dataset from [the-pudding](https://github.com/the-pudding/). In order to try out different imputation methods we removed 10% of the price values. If you want to take a look at all the data check the [data/PrepareWorkshopData](data/PrepareWorkshopData.ipynb) notebook. We will not cover this through the workshop.
 
 Walk through in [workshop.md](workshop.md)

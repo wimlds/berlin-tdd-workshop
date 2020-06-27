@@ -4,7 +4,7 @@ import pytest
 from pandas.testing import assert_frame_equal
 from pandas.testing import assert_series_equal
 
-from imputation import impute
+from scripts.imputation import impute
 
 def test_impute_one_value():
     data = pd.Series([1.0, np.nan, 3.0])    # 1. Define some input data
