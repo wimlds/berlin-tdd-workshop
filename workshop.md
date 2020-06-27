@@ -16,7 +16,7 @@
 
 - start environment (README)
 
-- start Jupyter Lab (-> jupyter lab)
+- start Jupyter Lab (terminal: `jupyter lab`)
 
 ---
 
