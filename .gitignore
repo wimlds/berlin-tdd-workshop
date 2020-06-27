@@ -119,7 +119,6 @@ profile.py
 /.project
 /.pydevproject
 test-reports/
-*.csv
 
 *.prof
 poetry.lock

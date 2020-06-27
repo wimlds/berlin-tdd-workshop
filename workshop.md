@@ -12,54 +12,50 @@
 
 # -> Where to start?
 
+- Fork and clone the workshop repo: `git clone https://github.com/wimlds/berlin-tdd-workshop`
 - follow setup instructions in README
 
 - start environment (README)
 
+- run first test in terminal: `pytest`
+
+- let's look at the function in [imputation.py](imputation.py) and at the test in [test/test_imputation.py](test/test_imputation.py)
+
+---
+
+# -> Missing Values - Exercise 1
+
 - start Jupyter Lab (terminal: `jupyter lab`)
-
----
-
-# -> Dataset
-
-- Let's look at some pockets data
-- Clone the workshop repo: `git clone https://github.com/wimlds/berlin-tdd-workshop`
-- Go to folder `cd berlin-tdd-workshop`
-- Download .json file from : `git clone https://github.com/the-pudding/data.git`
-- file needs to be opened from editor and saved. to fix json encoding issue
-- copy data/pockets/measurementRectangles.json file to workshop folder
-- to take a look at the data open and run cells in the [DataProfiling](DataProfiling.ipynb) notebook
-- we see that data is nicely balanced, each brand has 4 jeans, 2 for men and 2 for women and no missing data
-
----
-
-# -> Missing Values
-
-- the data doens't have any missing values so we are going to artificially create some
-- follow instructions in the [DataProfiling](DataProfiling.ipynb) notebook
-- let's write our first test for the data imputing function
-- running tests: `make test` or in env run `pytest`
+- open the [EDA](EDA.ipynb) notebook
+- the data has missing pricing values
+- let's add different functions for imputing the data and more tests.
+- running, in env run `pytest`
 - change the imputation method and adapt test (example method is with mean)
   - some should do impute w max
   - some with min
-  - some with and some with random value between min and max (advanced)
-- the methods we write are in [data_preparation](data_preparation.py) script
+  - think of test edge cases: calling this function on a column full of nans?
+  - how will we name all the tests and functions
+- copy the methods we write are in [imputation.py](imputation.py) and at add the tests in [test/test_imputation.py](test/test_imputation.py)
 
 ---
 
-# -> Back to the data - EDA - Exercise 1
+# -> Transformations - Exercise 2
 
-- disclaimer, the purpose of this is not to do EDA or be correct about our EDA :D
-- checking some data assumptions, open the [EDA](EDA.ipynb) notebook
+- checking the data open the [EDA](EDA.ipynb) notebook
 - first data transformation method, it works in notebook but has error..
 - comment out the skip test, run test.. (test will fail)
+  - fix method so that test passes
+  - write a test that explicitly does a type check
+  - add test with different input data.. all values the same
 - fix method (should return pd.Series(new_series))
 
-# -> EDA - Exercise 2
+# -> EDA - Exercise 3 and Homework
 
 - Open the [EDA](EDA.ipynb) notebook
-- let's write the test for the aggregate in the second exercise
-- discuss homework .. if there is time start with the exercise
+- let's write the test for the aggregate in the third exercise
+  - here we add new python script and new test file
+  - discuss the chicken and egg problem of notebooks and scripts..
+- discuss homework .. notify in which channel people should upload their solutions (ideally everybody has forked the repo and would push their soultions to their version of the workshop)
 
 ---
 
