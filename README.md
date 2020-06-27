@@ -1,6 +1,14 @@
-The following steps need to be run in a terminal
+# Unit Testing for Data Science
 
-# Requirements
+This repository contains workshop materials for "Unit Testing for Data Science" organized by Berlin Women in Machine Learning and Data Science on 1 July 2020.
+
+Authors: Ellen König, Tereza Iofciu, Marielle Dado
+
+## Setup
+
+NOTE: The following instructions need to be run in a terminal
+
+### Requirements
 
 There are three ways to setup your machine for the workshop, you should use the one that you are most familiar with. One is via conda, another via pyenv and the other with virtual env and pip.
 
@@ -19,7 +27,7 @@ OR
 
 ---
 
-# Setup
+### Setup
 
 Clone the repo locally:
 
@@ -61,13 +69,13 @@ source .venv/bin/activate           #to activate the environment
 
 ---
 
-# Running test
+### Running test
 
 Start environment and:
 
 `pytest` or `pytest -vv` for verbose output
 
-This should return tha a test has passed and some were skipped.
+This should return a test has passed and some were skipped.
 
 ## Workshop
 
