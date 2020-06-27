@@ -16,14 +16,9 @@ def test_impute_one_value():
 
 def test_impute_two_values():
     #exercise idea: use different arrays
-    data = np.array([1, 2, 3, np.nan, 4, np.nan]) 
-    input_series = pd.Series(data)
-
-    output_data = np.array([1, 2, 3, 2.5, 4, 2.5])
-    expected_series = pd.Series(output_data)
-
+    input_series = pd.Series([1, 2, 3, np.nan, 4, np.nan])
+    expected_series = pd.Series([1, 2, 3, 2.5, 4, 2.5])
     output_series = impute(series=input_series)
-
     assert_series_equal(output_series, expected_series)
 
 
