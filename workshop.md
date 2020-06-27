@@ -6,7 +6,7 @@
 
 # -> Unit testing
 
-- Presentation: what is unit testing, why, how and so on
+- [Presentation](https://docs.google.com/presentation/d/1Lc1fhpQsXWQonHNtZ78rozE_nymrFaoZuuGyp7q007Q/edit#slide=id.p1): what is unit testing, why, how and so on
 
 ---
 
@@ -26,7 +26,7 @@
 - Clone the workshop repo: `git clone https://github.com/wimlds/berlin-tdd-workshop`
 - Go to folder `cd berlin-tdd-workshop`
 - Download .json file from : `git clone https://github.com/the-pudding/data.git`
-- file needs to be opened from editor and saved.. to fix json encoding issue
+- file needs to be opened from editor and saved. to fix json encoding issue
 - copy data/pockets/measurementRectangles.json file to workshop folder
 - to take a look at the data open and run cells in the [DataProfiling](DataProfiling.ipynb) notebook
 - we see that data is nicely balanced, each brand has 4 jeans, 2 for men and 2 for women and no missing data
@@ -49,7 +49,7 @@
 
 # -> Back to the data - EDA - Exercise 1
 
-- disclaimer, the purpose of this is not to do eda or be correct about or eda :D
+- disclaimer, the purpose of this is not to do EDA or be correct about our EDA :D
 - checking some data assumptions, open the [EDA](EDA.ipynb) notebook
 - first data transformation method, it works in notebook but has error..
 - comment out the skip test, run test.. (test will fail)

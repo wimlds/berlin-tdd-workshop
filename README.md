@@ -17,7 +17,7 @@ with conda:
 conda env create -n berlin-tdd-workshop -f environment.yml
 
 # environment should be activated now
-# if not type: source activate pydata-pandas-workshop
+# if not type: source activate berlin-tdd-workshop
 ```
 
 With pyenv and poetry:
