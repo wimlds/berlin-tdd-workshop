@@ -1,14 +1,16 @@
-# Unit Testing for Data Science
+# :memo: :computer: :snake: :woman: Unit Testing for Data Science
 
-![WiMLDS Logo](images/wimlds_logo.png)
+![WiMLDS Logo](images/wimlds_logo.png | width=100)
+
 This repository contains workshop materials for "Unit Testing for Data Science" organized by Berlin Women in Machine Learning and Data Science on 1 July 2020.
 
 Authors: Ellen König, Tereza Iofciu, Marielle Dado
+
 ---
 
-## Before the workshop: Setup your computer
+## :wrench: :gear: :computer: Before the workshop: Setup your computer
 
-NOTE: You must run the entire set-up **BEFORE** the workshop. The following instructions need to be run in a terminal (works best with bash shell).
+:warning: You must run the entire set-up **BEFORE** the workshop. The following instructions need to be run in a terminal (works best with bash shell).
 
 ### Step 1: Requirements
 
@@ -78,12 +80,14 @@ Start environment and run this command in your terminal:
 
 `pytest` or `pytest -vv` for verbose output
 
-This should return a test has passed and some were skipped (see image below).
-![pytest result](images/pytest.png)
----
-## About the workshop
+This should return 2 tests that passed and one test that was skipped (see image below).
 
-### What are we expected to do at the workshop?
+![pytest result](images/pytest.png)
+
+---
+## :information_source: About the workshop
+
+### :question: What are we expected to do at the workshop?
 
 In this workshop, there are 3 exercises that involve one or both of the following tasks:
 1. **Writing functions** for data imputation and data transformation.
@@ -91,25 +95,27 @@ In this workshop, there are 3 exercises that involve one or both of the followin
 
 The instructors and mentors will guide you through the workshop content and materials
 
-### Which files are we working on? Should we use Jupyter notebooks or an IDE?
+### :question: Which files are we working on? Should we use Jupyter notebooks or an IDE?
 
 We prepared the following files and folders for you to work on:
 1. [data/EDA](data/EDA.ipynb) - a notebook for exploring the dataset
 2. [scripts](scripts) folder - contains the Python functions in following script files:
-- [scripts/imputation.py](scripts/imputation.py) - functions for data imputation
-- [scripts/transformation.py](scripts/transformation.py) - functions for data transformation
+      - [scripts/imputation.py](scripts/imputation.py) - functions for data imputation
+      - [scripts/transformation.py](scripts/transformation.py) - functions for data transformation
 3. [test](test) folder - contains the unit tests following scripts:
-- [test/test_imputation.py](test/test_imputation.py) - unit tests for functions in [scripts/imputation.py](scripts/imputation.py)
-- [test/test_transformation.py](test/test_transformation.py) - unit tests for functions in [scripts/transformation.py](scripts/transformation.py)
+      - [test/test_imputation.py](test/test_imputation.py) - unit tests for functions in [scripts/imputation.py](scripts/imputation.py)
+      - [test/test_transformation.py](test/test_transformation.py) - unit tests for functions in [scripts/transformation.py](scripts/transformation.py)
 
-In order to run successfully the unit tests you create, **the functions and unit tests must be placed in the Python scripts**. That means that the functions you write for data imputation should be placed in [scripts/imputation.py](scripts/imputation.py) and the corresponding unit tests should be in [test/test_imputation.py](test/test_imputation.py). For this, you will work on the scripts using an IDE of your choice.
+In order to run successfully the unit tests you create, **the functions and unit tests must be placed in the Python scripts**. 
+
+That means that the functions you write for data imputation should be placed in [scripts/imputation.py](scripts/imputation.py) and the corresponding unit tests should be in [test/test_imputation.py](test/test_imputation.py). For this, you will work on the scripts using an IDE of your choice.
 
 However, you may also first write your functions/tests in [data/EDA](data/EDA.ipynb) using Jupyter notebooks and then transfer them in the appropriate Python scripts later.
 
-### What dataset are we using?
+### :question: What dataset are we using?
 
 We prepared some data for the workshop using a Pockets dataset from [the-pudding](https://github.com/the-pudding/). In order to try out different imputation methods we removed 10% of the price values. If you want to take a look at all the data check the [data/PrepareWorkshopData](data/PrepareWorkshopData.ipynb) notebook. We will not cover this through the workshop.
 
-### Where can we ask for help?
+### :question: Where can we ask for help?
 
 The instuctors and mentors can answer your questions on the #meetup-berlin-workshop-help channel on the WiMLDS Global Slack workspace.
