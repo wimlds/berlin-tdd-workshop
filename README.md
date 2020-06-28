@@ -1,6 +1,6 @@
 # :memo: :computer: :snake: :woman: Unit Testing for Data Science
 
-![WiMLDS Logo](images/wimlds_logo.png | width=100)
+![WiMLDS Logo](images/wimlds_logo.png)
 
 This repository contains workshop materials for "Unit Testing for Data Science" organized by Berlin Women in Machine Learning and Data Science on 1 July 2020.
 
