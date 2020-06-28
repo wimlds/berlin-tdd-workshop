@@ -9,6 +9,8 @@ from scripts.transformation import is_greater_than_average
 
 
 @pytest.mark.skip(reason="comment out when we get here")
+# EXERCISE 2
+
 def test_is_greater_than_average():
     input_series = pd.Series([1, 2, 3, 2.5, 4])
     expected_series = pd.Series([0, 0, 1, 0, 1])
