@@ -98,7 +98,7 @@ The instructors and mentors will guide you through the workshop content and mate
 ### :question: Which files are we working on? Should we use Jupyter notebooks or an IDE?
 
 We prepared the following files and folders for you to work on:
-1. [data/EDA](data/EDA.ipynb) - a notebook for exploring the dataset
+1. [EDA](EDA.ipynb) - a notebook for exploring the dataset
 2. [scripts](scripts) folder - contains the Python functions in following script files:
       - [scripts/imputation.py](scripts/imputation.py) - functions for data imputation
       - [scripts/transformation.py](scripts/transformation.py) - functions for data transformation
@@ -110,7 +110,7 @@ In order to run successfully the unit tests you create, **the functions and unit
 
 That means that the functions you write for data imputation should be placed in [scripts/imputation.py](scripts/imputation.py) and the corresponding unit tests should be in [test/test_imputation.py](test/test_imputation.py). For this, you will work on the scripts using an IDE of your choice.
 
-However, you may also first write your functions/tests in [data/EDA](data/EDA.ipynb) using Jupyter notebooks and then transfer them in the appropriate Python scripts later.
+However, you may also first write your functions/tests in [EDA](EDA.ipynb) using Jupyter notebooks and then transfer them in the appropriate Python scripts later.
 
 ### :question: What dataset are we using?
 
