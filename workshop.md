@@ -1,4 +1,4 @@
-:construction::rotating_light: **DO NOT READ IF YOU ARE NOT A WORKSHOP INSTRUCTOR OR MENTOR!!!** :rotating_light: :construction:
+# :construction::rotating_light: **DO NOT READ IF YOU ARE NOT A WORKSHOP INSTRUCTOR OR MENTOR!!!** :rotating_light: :construction:
 
 % title: One step closer to unit testing in data science
 
