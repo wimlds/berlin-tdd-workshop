@@ -4,7 +4,7 @@ import pytest
 from pandas.testing import assert_frame_equal
 from pandas.testing import assert_series_equal
 
-from scripts.imputation import impute
+from scripts.imputation import impute, impute_min, impute_with_max
     
 # EXERCISE 1
 
